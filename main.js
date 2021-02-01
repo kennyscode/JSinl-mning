@@ -2,8 +2,7 @@
 För att undersöka/felsöka buggar använder man sig av "developer tools" fliken, (f12) i Google Chrome där man sedan ska navigera sig till "sources" tabben för att med hjälp av breakpoints kunna steppa igenom kod och kontrollera det som skrivs ut i console.
 */ 
 
-document.addEventListener("DOMContentLoaded", pageLoader); //Detta är ett ställe där koden körs i samband med ett event. Den lägger till ett event som lyder och används efter användarens input (musklick) för att acceptera båda en funktion samt object med hjälp av "pageLoader" som agerar callback.
-
+document.addEventListener("DOMContentLoaded", pageLoader); //Detta är ett ställe där koden körs i samband med ett event. Den lägger till ett event som lyder och används efter användarens input (musklick) för att acceptera båda en funktion samt object så som en handler för Event, "pageLoader" agerar dock i detta fall som "callback".
 function pageLoader() {
   let inputBox = document.querySelector("#input-number");
 
