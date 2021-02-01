@@ -18,7 +18,7 @@ function createSection(count){
 
     var child = document.createElement("section"); //skapar section child.
     var title = document.createElement("h4"); //skapar en titel med h4.
-    var blurb = document.createElement("p"); //kapar en blurb paragraph.
+    var blurb = document.createElement("p"); //skapar en blurb paragraph.
 
     title.innerText = "Titel Postinlägg " + i;
     blurb.innerText = `Beyblade, Beyblade LET IT RIP!
